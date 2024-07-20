@@ -1,0 +1,42 @@
+:root {
+  --primary: white;
+  --secondary: #643DBD;
+}
+.pageitem {
+  width: 10
+  px;
+  height: 10px;
+  margin: 5px;
+  background-color: #666;
+  border-radius: 50% !important;
+}
+.page-item {
+  width: 25px;
+  height: 25px;
+  border-radius: 50% !important;
+  margin: 10px;
+  background: #aaa;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-item .page-link {
+  width: 110%;
+  height: 110%;
+  padding: 0;
+  border-radius: 50% !important;
+  background: #aaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.page-item .page-link:hover {
+  background: var(--secondary);
+}
+.selected .page-link {
+  background: var(--secondary) !important;
+  color: white !important;
+  box-shadow: none;
+}
